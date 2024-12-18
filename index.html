@@ -27,8 +27,11 @@ h1 {
   color: #454545;
   font-size: 350%;
   font-variant: small-caps;
+  text-decoration: ;
   letter-spacing: 1.5px;
   word-spacing: 0px;
+  position: relative;
+  top: 30px;
   
 }
 
@@ -40,14 +43,40 @@ img {
   width: 200px;
   border-radius: 20%;
   border: none;
+  position: relative;
+  top: 20px;
 }
 
 img:hover {
   width: 15%;
 }
 
+button {
+  background-color: #454545; 
+  color: white; 
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Add spacing */
+  font-size: 16px; /* Adjust text size */
+  font-variant: small-caps;
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1);
+  
+}
 
-  ul {
+button:hover {
+background-color: #232323; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  
+    }
+
+button:active {
+  background-color: #121212; /* Even darker blue */
+  transform: scale(0.98); /* Slight press effect */
+}
+
+ul {
   list-style: none;
   background-color: #898989;
   width: 100%;
@@ -64,6 +93,7 @@ li {
   padding: 8px 40px;
   position: relative;
   left: 1250px;
+  
 }
 
 a {
